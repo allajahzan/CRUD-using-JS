@@ -1,0 +1,49 @@
+<%- include('../partials/header') %>
+
+  <body style="background-color: white;" onload="onloadAdmin()"></body>
+  <%- include('../partials/navbar') %>
+
+    <div class="container center-card">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 img-div">
+          <img src="/images/pic1.jpg" alt="">
+        </div>
+        <div id="signin" class="col-sm-12 col-md-12 col-lg-6 col-xl-6 cards">
+
+
+
+          <div class="title">
+            <h1>Admin</h1>
+            <div class="select-user">
+              <p>Admin-Sign-In</p>
+              <!-- <p style="color: blue;" class="p" id="getUser">User?</p> -->
+            </div>
+          </div>
+
+          <form id="admin-form" name="admin-form" action="" method="post">
+            <div class="form">
+              <div class="email">
+                <input type="email" name="email" placeholder="Email Id" id="admin-email"
+                  autocomplete="off" required> <br>
+                <span id="admin-email-error" style="color: red;" class="material-symbols-outlined"></span>
+              </div>
+
+              <div class="password">
+                <input type="password" class="password" name="password" placeholder="Password" id="admin-password"
+                 autocomplete="off" required> <br>
+                <span id="admin-password-error" style="color: red;" class="material-symbols-outlined"></span>
+                <span onclick="changePasswordVisisbility()" id="visibility-admin" class="material-symbols-outlined">visibility_off</span>
+              </div>
+
+              <input type="submit" value="Sign-In" class="btn-signin">
+              <br>
+              <p style="visibility: hidden;">Don't Have An Account?&nbsp<a href="/createAcc" id="create">Sign-Up</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <%- include('../partials/footer') %>

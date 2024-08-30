@@ -1,0 +1,23 @@
+<section id="navbar-home">
+  <header class="p-2 admin-navbar">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-0 justify-content-center mb-md-0">
+          <li><h3 href="#" class="nav-link px-0 navbar-brand">Dashboard</h3></li>
+        </ul>
+
+        <form id="formSearchUser" action="/admin/search" method="get" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input name="user" type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search" value="<%= locals.search || '' %>" required autocomplete="off">
+        </form>
+
+        <div class="text-end d-flex">
+          <a style="cursor: pointer; color: white;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="add-user" class="nav-link active" onclick="addUser()">Add User</a>
+          <a href="/admin" style="cursor: pointer; text-decoration: none; color: white;" class="nav-link active"
+          tabindex="-1" aria-disabled="true">Go Back</a>
+        </div>
+      </div>
+    </div>
+  </header>
+</section>  
+
+ 

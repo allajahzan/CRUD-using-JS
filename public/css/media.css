@@ -1,0 +1,302 @@
+@media (max-width: 1199.20px) {
+    .center-card {
+        padding: 1em;
+        padding-top: 4em;
+    }
+}
+
+@media (max-width: 1128px) {
+    .center-card {
+        padding: 3em;
+        padding-top: 6em;
+    }
+}
+
+@media (max-width: 1049.20px) {
+    .center-card {
+        padding: 4em;
+        padding-top: 7em;
+    }
+}
+
+@media (max-width: 991.20px) {
+    .center-card {
+        padding: 0em;
+        padding-top: 3em;
+    }
+
+    .cards .title {
+        position: absolute;
+        top: 20px;
+        color: white;
+    }
+
+    .cards .form {
+        position: relative;
+        top: -47px;
+        background-color: transparent;
+    }
+
+    .center-card .row {
+        height: 80vh;
+    }
+
+    .center-card .signup-row {
+        height: 100vh;
+        position: relative;
+        top: 2.5em;
+    }
+
+    #show-success-message{
+        position: relative; 
+        top: 10px; 
+        display: flex; 
+        justify-content: center;
+    }
+
+    #signup-section{
+        height: 50em;
+        margin-bottom: 4.5em;
+    }
+
+    #signup-form{
+        position: relative;
+        top: 1.5em;
+        margin-bottom: 1em;
+    }
+    
+    .center-card .item1 {
+        display: none;
+    }
+
+    .center-card .item2 {
+        display: block;
+    }
+
+
+    .center-card .img-div {
+        height: 48%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .center-card .signup-row .img-div {
+        height: 30%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .center-card img {
+        object-fit: cover;
+        height: 150%;
+        position: relative;
+        top: -70px;
+    }
+
+     /* admin or user button */
+     .select-user{
+        display: flex; 
+        flex-direction: column;
+        align-items: start;
+    } 
+    .select-user .p{
+       color: white;
+       text-decoration: underline;
+     
+    } 
+
+    /* dashboard */
+
+    /* #dashboard{
+    padding-top: 11.5em;
+} */
+
+}
+
+@media (max-width: 900.20px) {
+
+    .center-card {
+        padding: 2em;
+        padding-top: 5em;
+    }
+
+    .center-card .img-div {
+        height: 48%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .center-card img {
+        object-fit: cover;
+        height: 150%;
+        position: relative;
+        top: -70px;
+    }
+}
+
+@media (max-width: 849.60px) {
+
+    .center-card {
+        padding: 3em;
+        padding-top: 6em;
+    }
+
+    .center-card .img-div {
+        height: 48%;
+        overflow: hidden;
+    }
+
+    .cards .form {
+        text-align: center;
+    }
+
+    .cards p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.2px) {
+
+    .center-card {
+        padding: 0em;
+        padding-top: 3em;
+    }
+
+    .center-card img {
+        object-fit: cover;
+        height: 150%;
+        position: relative;
+        top: -70px;
+    }
+
+    .center-card .img-div {
+        height: 46%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .center-card .row {
+        overflow: hidden;
+        width: 100vw;
+    }
+
+}
+
+@media (max-width: 680.20px) {
+    .center-card {
+        padding: 2em;
+        padding-top: 5em;
+    }
+
+    .cards {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .cards .form {
+        position: relative;
+        top: -47.5px;
+    }
+}
+
+
+
+@media (max-width: 600.20px) {
+    .center-card {
+        padding: 2em;
+        padding-top: 5em;
+    }
+
+    .center-card .img-div {
+        height: 46%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    #navbar .fixed-top {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media (max-width: 575.20px) {
+    .center-card {
+        padding: 3em;
+        padding-top: 6em;
+    }
+
+    .center-card .img-div {
+        height: 46%;
+        overflow: hidden;
+        background-color: white;
+    }
+}
+
+@media (max-width: 520.20px) {
+
+    .center-card .img-div {
+        height: 46%;
+        overflow: hidden;
+        background-color: white;
+    }
+}
+
+@media (max-width: 480.20px) {
+
+
+    .center-card .row {
+        height: 85vh;
+    }
+
+    .center-card .img-div {
+        height: 60%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+
+}
+
+@media (max-width: 400.20px) {
+
+
+    .cards .form {
+        position: relative;
+        top: -40px;
+    }
+
+    .cards p {
+        font-size: .8rem;
+    }
+
+    .center-card .img-div {
+        height: 45%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+
+    .center-card .row {
+        height: 85vh;
+    }
+}
+
+@media (max-width: 391px) {
+
+    .center-card .img-div {
+        height: 58%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+}
+
+@media (max-width: 376px) {
+
+    .center-card .img-div {
+        height: 45%;
+        overflow: hidden;
+        background-color: white;
+    }
+
+}

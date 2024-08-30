@@ -1,0 +1,454 @@
+/* body{
+    background: linear-gradient(to top right, #ebebeb, #f0efef);
+} */
+
+/* Navbar */
+
+#navbar .navigation-bar {
+    box-shadow: 0rem 0rem 1rem 0rem #292929;
+    background-image: url('/images/pic6.jpg');
+}
+
+#navbar-home .navigation-bar {
+    background-color: transparent;
+}
+
+#navbar-home .admin-navbar {
+    box-shadow: 0rem 0rem 1rem 0rem #292929;
+    background-image: url('/images/pic1.jpg');
+    background-size: auto;
+    border-bottom: white;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+
+#search-bar{
+    background-color: #e2dfdf;
+}
+
+#navbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#navbar-home .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+ 
+}
+
+#navbar .user {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#navbar-home .navigation-bar .active {
+    color: white;
+}
+
+/* img */
+
+.img-fluid {
+    height: 100vh;
+    width: 100vw;
+    opacity: .8;
+}
+
+#img .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* login card */
+.center-card {
+    padding: 6em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-card .row {
+
+    /* display: none; */
+    height: 80vh;
+    box-shadow: 0rem 0rem .5rem 0rem #a3a2a2;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+}
+
+.center-card .signup-row
+{
+    height: 80vh;
+}
+
+.signup-user{
+    /* border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    position: relative; */
+    top: 24px;
+}
+
+/* .signup-user .modal-header{
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+} */
+
+.center-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.center-card .img-div {
+    padding: 0em;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4em;
+    padding-right: 4em;
+    /* padding-right: 5em; */
+    background-color: white;
+}
+
+#show-success-message{
+    position: relative; 
+    top: 10px; 
+    display: flex; 
+    visibility: hidden;
+}
+
+.cards h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.cards .password {
+    position: relative;
+    display: flex;
+}
+
+.cards .email {
+    position: relative;
+    display: flex;
+}
+
+.password span {
+    padding: .5em;
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.email span {
+    padding: .5em;
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.signup {
+    display: none;
+}
+
+.cards .btn-signin {
+    width: 100%;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    /* background-color: #AA14F0; */
+    background-color: #100303;
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: medium;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+.cards .btn-signup {
+    width: 100%;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    /* background-color: #AA14F0; */
+    background-color: #100303;
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: medium;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+.cards input {
+    font-size: 1rem;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 1px 0px;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    color: black;
+    background-color: transparent;
+}
+
+.cards input:focus {
+    outline: none;
+}
+
+.cards input::placeholder {
+    font-size: 1rem;
+    color: grey;
+}
+
+/*home  */
+
+#home {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#home .carousel-inner {
+    height: 70vh;
+    position: relative;
+}
+
+#home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#home .home-page {
+    color: white;
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+/* user */
+
+#user {
+    /* height: 100px; */
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    /* padding-right: 5%; */
+}
+
+#user .user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 2me; */
+}
+
+/* footer */
+
+#footer {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: #00000049;
+}
+
+#footer .copy {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#footer svg {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+}
+
+#footer .social {
+    display: flex;
+    justify-content: center;
+
+}
+
+#error {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#error h1 {
+    color: white
+}
+
+#error p {
+    color: white;
+}
+
+.select-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-user .p {
+    background-color: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.select-user p {
+    margin-bottom: 4px;
+}
+
+/* #admin-card{
+    display: none;
+    transition: display 0.5s ease;
+} 
+
+*/
+
+/* dashboard */
+
+#dashboard{
+    padding-top: 2em;
+}
+
+#add-user input{
+    font-size: 1rem;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 1px 0px;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    color: black;
+    background-color: transparent;
+}
+
+#add-user input:focus {
+    outline: none;
+}
+
+#add-user .password {
+    position: relative;
+    display: flex;
+}
+
+#add-user .email {
+    position: relative;
+    display: flex;
+}
+
+#add-user .visibility {
+    padding: .5em;
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.edit-user input:focus {
+    outline: none;
+}
+
+.edit-user .password {
+    position: relative;
+    display: flex;
+}
+
+.edit-user .email {
+    position: relative;
+    display: flex;
+}
+
+.edit-user .visibility {
+    padding: .5em;
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.user-add{
+    border: none;
+    background-color: #f0eded;
+}
+.user-add .modal-header{
+    background-color: black;
+}
+
+
+.edit-user input{
+    font-size: 1rem;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 1px 0px;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    color: black;
+    background-color: transparent;
+}
+
+.edit-user input:focus {
+    outline: none;
+}
+
+.user-edit{
+    border: none;
+    background-color: #f0eded;
+}
+.user-edit .modal-header{
+    background-color: black;
+}
+
+
+/* error */
+
+.signin-error {
+    padding: .5em;
+    position: absolute;
+    right: 0px;
+    bottom: 18px;
+    cursor: pointer;
+    z-index: 2;
+}
